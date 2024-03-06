@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState ,useEffect} from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import "./Gallery.css";
 import Footer from "../../Components/Footer/Footer";
@@ -8,6 +8,9 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Header from "../../Components/Header/Header";
 
 const Gallery = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const today = new Date();
   const year = today.getFullYear();
   const month = (today.getMonth() + 1).toString().padStart(2, "0");
