@@ -1,0 +1,210 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.signIn_label {
+  color: #1a1a1a;
+  font-family: AvenirLTProLight;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 39px */
+  letter-spacing: 0.6px;
+}
+.right-section {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; /* Align to the right */
+  align-items: flex-end; /* Align to the bottom */
+  padding: 0px;
+}
+.image_sign {
+  border-radius: 56px 0px 0px 0px; /* Border radius to the left side top only */
+  width: 944px;
+  height: 854px;
+  flex-shrink: 0;
+}
+.signin-form {
+  margin-top: 20px;
+  margin-left: 10rem !important;
+}
+.form-label {
+  color: #1a1a1a;
+  font-family: AvenirLTProLight;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 26px */
+  letter-spacing: 0.4px;
+}
+.sign_btn {
+  display: inline-flex;
+  padding: 18px 44px 20px 44px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 60px;
+  background: var(--Brand-color, #2350a2);
+  margin-top: 0px;
+  border: 0px;
+  font-family: AvenirLTProLight;
+  font-size: 20px !important;
+}
+button {
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+.error {
+  color: red;
+}
+input[type="text"],
+input[type="password"] {
+  width: 520px;
+  height: 60px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #cfc7c7;
+}
+
+.formBasicPassword {
+  margin-top: 30px !important;
+}
+
+.signIn_text {
+  margin-bottom: 20px !important;
+}
+
+@media only screen and (min-device-width: 1430px) and (max-device-width: 1838px) {
+  .image_sign {
+    width: 754px !important;
+    height: 704px !important;
+  }
+  input[type="text"],
+  input[type="password"] {
+    width: 400px;
+    height: 50px;
+  }
+}
+@media only screen and (min-device-width: 1293px) and (max-device-width: 1430px) {
+  .image_sign {
+    width: 754px !important;
+    height: 704px !important;
+  }
+  input[type="text"],
+  input[type="password"] {
+    width: 420px;
+    height: 50px;
+  }
+  .signInForm {
+    margin-left: -10vh !important;
+  }
+}
+@media only screen and (min-device-width: 1028px) and (max-device-width: 1293px) {
+  .image_sign {
+    width: 80% !important;
+    height: 604px !important;
+  }
+  input[type="text"],
+  input[type="password"] {
+    width: 390px !important;
+    height: 45px !important;
+  }
+  .signInForm {
+    margin-left: -12vh !important;
+  }
+  .sign_btn {
+    padding: 10px 20px;
+  }
+}
+@media only screen and (min-width: 898px) and (max-width: 1028px) {
+  .container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image_sign {
+    border-radius: 56px 0px 0px 0px;
+
+    width: 80%;
+    height: 604px !important;
+  }
+  input[type="text"],
+  input[type="password"] {
+    width: 310px !important;
+    height: 45px !important;
+  }
+  .signInForm {
+    margin-left: -13vh !important;
+  }
+  .sign_btn {
+    padding: 10px 20px;
+  }
+}
+
+@media only screen and (min-width: 568px) and (max-width: 898px) {
+  .container-section {
+    display: block !important;
+  }
+  .image_sign {
+    padding: 2rem;
+    width: 100%;
+    height: 404px !important;
+    border-radius: 6px !important;
+  }
+  input[type="text"],
+  input[type="password"] {
+    width: 390px !important;
+    height: 45px !important;
+  }
+  .sign_btn {
+    padding: 10px 20px !important;
+    width: 6rem !important;
+    font-size: 17px !important;
+  }
+  .signInForm {
+    margin-left: -12vh !important;
+    margin-top: 3rem !important;
+  }
+  .signIn_text {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 228px) and (max-width: 568px) {
+  .container-section {
+    display: block !important;
+  }
+  .image_sign {
+    padding: 2rem;
+    width: 100%;
+    height: 404px !important;
+    border-radius: 6px !important;
+  }
+  input[type="text"],
+  input[type="password"] {
+    width: 100% !important;
+    height: 40px !important;
+  }
+  .sign_btn {
+    padding: 10px 20px !important;
+    width: 6rem !important;
+    font-size: 17px !important;
+  }
+  .signInForm {
+    margin-left: -12vh !important;
+    margin-top: 3rem !important;
+  }
+  .signIn_text {
+    font-size: 20px;
+  }
+  .signIn_label {
+    width: 100% !important;
+    font-size: 15px !important;
+  }
+}
