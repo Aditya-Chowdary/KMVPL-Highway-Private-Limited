@@ -48,9 +48,7 @@
 .heading {
   color: #fff;
   font-family: "Cormorant Garamond", serif;
-  ;
-  font-size: calc(1.5rem + 2vw);
-
+  font-size: calc(1.2rem + 2vw);
   font-style: normal;
   font-weight: 500;
   line-height: 130%;
@@ -61,11 +59,11 @@
 .projectName {
   color: #1a1a1a;
   font-family: "Cormorant Garamond", serif;
-  font-size: 36px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 500;
   line-height: 120%;
-  /* 46.8px */
+
   letter-spacing: 0.72px;
   margin-bottom: 8px !important;
 }
@@ -73,10 +71,10 @@
 .para {
   color: #434343;
   font-family: AvenirLTProLight;
-  font-size: 22px;
+  font-size: 16px;
   margin-top: 1rem;
   font-style: normal;
-  font-weight: 400;
+
   line-height: 170%;
   /* 36px */
   letter-spacing: 0.48px;
@@ -87,9 +85,9 @@
 .about {
   color: #2350a2;
   font-family: "Cormorant Garamond", serif;
-  font-size: 50px;
+  font-size: 40px;
   font-style: normal;
-  font-weight: 500;
+
   line-height: 130%;
   /* 78px */
   letter-spacing: 1.2px;
@@ -103,7 +101,7 @@
 .sub_text {
   color: #434343;
   font-family: AvenirLTProLight;
-  font-size: 22px;
+  font-size: 16px;
   font-style: normal;
   line-height: 150%;
   /* 36px */
@@ -112,13 +110,13 @@
 
 .gallery_btn {
   display: block;
-  padding: 24px 48px 26px 48px;
+  padding: 24px 38px 26px 38px;
   justify-content: flex-start;
   border-radius: 60px;
   background: #2350a2;
   color: #fff;
   font-family: AvenirLTProLight;
-  font-size: 24px;
+  font-size: 18px;
   margin-top: 20px;
   font-weight: 400;
   line-height: 130%;
@@ -137,7 +135,8 @@
 }
 
 @media screen and (min-width: "1085px") and (max-width: 1388px) {
-  .about_image {}
+  .about_image {
+  }
 
   .content-overlay {
     width: 90%;
@@ -174,7 +173,6 @@
 
   .projectName {
     font-size: 24px;
-    /* Adjust font size */
   }
 
   .para {
@@ -241,7 +239,7 @@
   }
 
   .sub_text {
-    font-size: 16px;
+    font-size: 15px;
     /* Adjust font size */
   }
 

@@ -77,6 +77,7 @@ input[type="password"] {
 
 .signIn_text {
   margin-bottom: 20px !important;
+  font-size: 25px;
 }
 
 @media only screen and (min-device-width: 1430px) and (max-device-width: 1838px) {

@@ -14,8 +14,8 @@ function AuthProvider({ children }) {
   const [error, setError] = useState("");
 
   const authenticate = (username, password) => {
-    const dummyUsername = "admin";
-    const dummyPassword = "password";
+    const dummyUsername = "kmvplrvhpl";
+    const dummyPassword = "kmvplrvhpl@123";
 
     if (username === dummyUsername && password === dummyPassword) {
       setAuthenticated(true);

@@ -23,7 +23,7 @@
   padding: 10px;
   border: 0px;
   border-radius: 20px;
-  width: 80%;
+
   margin: 0 auto;
   text-align: center;
   position: relative;
@@ -32,13 +32,13 @@
 .scrollable-months::-webkit-scrollbar {
   display: none;
 }
-.select{
+.select {
   font-size: 23px;
 }
 .months_font {
   color: #d4d4d4;
   font-family: AvenirLTProLight;
-  font-size: 28px;
+  font-size: 20px !important;
   font-style: normal;
   font-weight: 400;
   line-height: 130%; /* 41.6px */
@@ -51,7 +51,6 @@
   background-color: rgb(255, 255, 255);
   color: var(--Brand-color, #2350a2) !important;
 }
-/* Month Buttons */
 
 .MonthsButtonActive {
   /* border: 1px solid; */
@@ -68,7 +67,6 @@
 .scrollable-months .btn {
   width: calc(50% - 5px);
   margin-bottom: 5px;
-
   font-family: AvenirLTProLight;
 }
 
@@ -104,15 +102,7 @@
   outline: none;
   background-color: #ffffff;
 }
-.SelcetMonth {
-  color: #b4b0b0;
-  font-family: "Cormorant Garamond", serif;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 130%; /* 41.6px */
-  letter-spacing: 0.64px;
-}
+
 
 #bday-month::-webkit-calendar-picker-indicator {
   border: 0px solid;
@@ -132,11 +122,14 @@
   color: #1a1a1a;
 
   font-family: "Cormorant Garamond", serif;
-  font-size: 32px;
+  font-size: 28px !important;
   font-style: normal;
   font-weight: 600;
   line-height: 130%; /* 41.6px */
   letter-spacing: 0.64px;
+}
+.GalleryHeaderText_month {
+  font-size: 26px !important;
 }
 .imageCard {
   height: 300px;
@@ -156,7 +149,7 @@
   max-height: 280px;
 }
 .SelectDate-g {
-  font-size: 26px;
+  font-size: 20px;
   padding: 10px 10px;
   color: #000000;
   border-bottom: 1px solid #bebebe;
@@ -241,11 +234,10 @@
   .GalleryCol {
     padding-right: 9%;
   }
-  .SelectDate-g{
+  .SelectDate-g {
     font-size: 22px !important;
   }
-  .select{
-
+  .select {
   }
   .months_font {
     font-size: 20px !important;
