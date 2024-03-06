@@ -15,7 +15,7 @@ function AuthProvider({ children }) {
 
   const authenticate = (username, password) => {
     const dummyUsername = "kmvplrvhpl";
-    const dummyPassword = "kmvplrvhpl@123";
+    const dummyPassword = "kmvplrvhpl@24";
 
     if (username === dummyUsername && password === dummyPassword) {
       setAuthenticated(true);
