@@ -66,7 +66,6 @@ const Home = () => {
               width="700px"
               height="520px"
               alt="Project"
-              style={{ marginTop: "12vh" }}
               className="about_image"
             />
           </Col>
